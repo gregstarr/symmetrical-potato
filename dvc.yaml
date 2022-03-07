@@ -3,3 +3,7 @@ stages:
     cmd: python test.py
     deps:
     - test.txt
+    - test.py
+
+    outs:
+    - out.txt

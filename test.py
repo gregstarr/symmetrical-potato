@@ -1,3 +1,5 @@
 import pathlib
 
-print(pathlib.Path(__file__))
+pin = pathlib.Path(__file__).parent / 'test.txt'
+pout = pathlib.Path(__file__).parent / 'out.txt'
+pout.write_text(pin.read_text())
