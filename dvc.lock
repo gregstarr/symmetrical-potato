@@ -4,12 +4,12 @@ stages:
     cmd: python test.py
     deps:
     - path: test.py
-      md5: 48d3f0a69e12eee3f97d0fc266a20a61
-      size: 152
+      md5: e7b02c46c49c967c71f31fd1433e7cee
+      size: 170
     - path: test.txt
-      md5: 5d41402abc4b2a76b9719d911017c592
-      size: 5
+      md5: 69faab6268350295550de7d587bc323d
+      size: 7
     outs:
     - path: out.txt
-      md5: 5d41402abc4b2a76b9719d911017c592
-      size: 5
+      md5: 69faab6268350295550de7d587bc323d
+      size: 7
