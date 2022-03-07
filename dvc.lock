@@ -1,0 +1,8 @@
+schema: '2.0'
+stages:
+  test:
+    cmd: python test.py
+    deps:
+    - path: test.txt
+      md5: a441fc1b5c81a2f63344f6257192cd50
+      size: 22

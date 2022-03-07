@@ -1,0 +1,5 @@
+stages:
+  test:
+    cmd: python test.py
+    deps:
+    - test.txt
